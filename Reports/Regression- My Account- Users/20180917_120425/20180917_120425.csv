@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression- My Account- Users,Chrome 68.0.3440.106,,2018-09-17 12:04:26,2018-09-17 12:04:55,28.599s,PASSED
+,,,,,,
+Test Cases/1. Login_Logout/Login- Standard Admin,Chrome 68.0.3440.106,,2018-09-17 12:04:27,2018-09-17 12:04:38,11.545s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-17 12:04:27,2018-09-17 12:04:27,0.021s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-17 12:04:27,2018-09-17 12:04:27,0.001s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-09-17 12:04:27,2018-09-17 12:04:32,5.228s,PASSED
+"Statement - log.logWarning(""URL in Use: "" + baseURL)",Chrome 68.0.3440.106,,2018-09-17 12:04:32,2018-09-17 12:04:32,0.001s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-09-17 12:04:32,2018-09-17 12:04:32,0.142s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:32,2018-09-17 12:04:33,1.022s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-09-17 12:04:33,2018-09-17 12:04:33,0.267s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-17 12:04:33,2018-09-17 12:04:34,0.104s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:34,2018-09-17 12:04:36,2.001s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-09-17 12:04:36,2018-09-17 12:04:36,0.152s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-17 12:04:36,2018-09-17 12:04:36,0.085s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:36,2018-09-17 12:04:38,2.002s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(""Sign in to Continue"", false, OPTIONAL))",Chrome 68.0.3440.106,,2018-09-17 12:04:38,2018-09-17 12:04:38,0.430s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-17 12:04:38,2018-09-17 12:04:38,0.002s,PASSED
+,,,,,,
+Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master,Chrome 68.0.3440.106,,2018-09-17 12:04:38,2018-09-17 12:04:48,9.448s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-17 12:04:38,2018-09-17 12:04:38,0.001s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-17 12:04:38,2018-09-17 12:04:38,0.001s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:38,2018-09-17 12:04:40,2.002s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-17 12:04:40,2018-09-17 12:04:40,0.110s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:40,2018-09-17 12:04:42,2.003s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-17 12:04:42,2018-09-17 12:04:42,0.003s,NOT_RUN
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:42,2018-09-17 12:04:44,2.004s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-17 12:04:44,2018-09-17 12:04:45,0.154s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:45,2018-09-17 12:04:47,2.002s,PASSED
+"Statement - log.logWarning(""Navigating to USER Master"")",Chrome 68.0.3440.106,,2018-09-17 12:04:47,2018-09-17 12:04:47,0.002s,PASSED
+Statement - pageText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/text- User Master)),Chrome 68.0.3440.106,,2018-09-17 12:04:47,2018-09-17 12:04:47,0.095s,PASSED
+"Statement - If (pageText.contains(""manage the users""))",Chrome 68.0.3440.106,,2018-09-17 12:04:47,2018-09-17 12:04:47,0.003s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:47,2018-09-17 12:04:48,1.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-17 12:04:48,2018-09-17 12:04:48,0.006s,PASSED
+,,,,,,
+Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users,Chrome 68.0.3440.106,,2018-09-17 12:04:48,2018-09-17 12:04:50,2.309s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-17 12:04:48,2018-09-17 12:04:48,0.006s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-17 12:04:48,2018-09-17 12:04:48,0.001s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 68.0.3440.106,,2018-09-17 12:04:48,2018-09-17 12:04:48,0.006s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:48,2018-09-17 12:04:50,2.004s,PASSED
+click,Chrome 68.0.3440.106,Click on Active tab selection,2018-09-17 12:04:50,2018-09-17 12:04:50,0.108s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table""))",Chrome 68.0.3440.106,To locate table on User Master Page,2018-09-17 12:04:50,2018-09-17 12:04:50,0.030s,PASSED
+"Statement - rows = Table.findElements(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table/tbody/tr/td[4]/button[3]""))",Chrome 68.0.3440.106,Locate all rows available on user master page,2018-09-17 12:04:50,2018-09-17 12:04:50,0.022s,PASSED
+Statement - TotalRows = rows.size(),Chrome 68.0.3440.106,,2018-09-17 12:04:50,2018-09-17 12:04:50,0.001s,PASSED
+Statement - If (TotalRows >= 1),Chrome 68.0.3440.106,,2018-09-17 12:04:50,2018-09-17 12:04:50,0.000s,PASSED
+Statement - Else,Chrome 68.0.3440.106,,2018-09-17 12:04:50,2018-09-17 12:04:50,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-17 12:04:50,2018-09-17 12:04:50,0.001s,PASSED
+,,,,,,
+Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users,Chrome 68.0.3440.106,,2018-09-17 12:04:50,2018-09-17 12:04:54,4.266s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-17 12:04:50,2018-09-17 12:04:50,0.001s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-17 12:04:50,2018-09-17 12:04:50,0.001s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:50,2018-09-17 12:04:52,2.003s,PASSED
+click,Chrome 68.0.3440.106,Click on InActive tab selection,2018-09-17 12:04:52,2018-09-17 12:04:52,0.121s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-17 12:04:52,2018-09-17 12:04:54,2.003s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 68.0.3440.106,,2018-09-17 12:04:54,2018-09-17 12:04:54,0.002s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table""))",Chrome 68.0.3440.106,To locate table on User Master Page,2018-09-17 12:04:54,2018-09-17 12:04:54,0.026s,PASSED
+"Statement - rows = Table.findElements(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table/tbody/tr/td[4]/button[3]""))",Chrome 68.0.3440.106,Locate all rows available on user master page,2018-09-17 12:04:54,2018-09-17 12:04:54,0.015s,PASSED
+Statement - TotalRows = rows.size(),Chrome 68.0.3440.106,,2018-09-17 12:04:54,2018-09-17 12:04:54,0.000s,PASSED
+Statement - If (TotalRows >= 1),Chrome 68.0.3440.106,,2018-09-17 12:04:54,2018-09-17 12:04:54,0.000s,PASSED
+Statement - Else,Chrome 68.0.3440.106,,2018-09-17 12:04:54,2018-09-17 12:04:54,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-17 12:04:54,2018-09-17 12:04:54,0.003s,PASSED

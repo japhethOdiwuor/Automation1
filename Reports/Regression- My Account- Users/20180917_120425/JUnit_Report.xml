@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression- My Account- Users" time="28" tests="4" failures="0" errors="0">
+   <testsuite name="Regression- My Account- Users" tests="4" failures="0" errors="0" time="28" timestamp="2018-09-17 12:04:26" hostname="PRISCILLA - 192.168.13.172" id="Test Suites/Regression- My Account- Users">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation Katalon\\DukaMili\\Reports\\Regression- My Account- Users\\20180917_120425"/>
+         <property name="logFiles" value="D:\\Automation Katalon\\DukaMili\\Reports\\Regression- My Account- Users\\20180917_120425\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PRISCILLA - 192.168.13.172"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.13.172"/>
+         <property name="sessionId" value="d1ba672e20865db4e3cef668c1813160"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1. Login_Logout/Login- Standard Admin" classname="Test Cases/1. Login_Logout/Login- Standard Admin" status="PASSED">
+         <system-out><![CDATA[2018-09-17 12:04:27 - [TEST_CASE][PASSED] - Test Cases/1. Login_Logout/Login- Standard Admin: Test Cases/1. Login_Logout/Login- Standard Admin
+
+2018-09-17 12:04:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-17 12:04:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-17 12:04:27 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-17 12:04:27 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-17 12:04:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://localhost:9632/#/page/login'
+
+2018-09-17 12:04:32 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:9632/#/page/login'
+
+2018-09-17 12:04:32 - [TEST_STEP][PASSED] - Statement - log.logWarning("URL in Use: " + baseURL): URL in Use: http://localhost:9632/#/page/login
+
+2018-09-17 12:04:32 - [MESSAGE][WARNING] - URL in Use: http://localhost:9632/#/page/login
+
+2018-09-17 12:04:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-17 12:04:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-17 12:04:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 12:04:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 12:04:33 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_Logout/input- UserName'
+
+2018-09-17 12:04:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Logout/input- UserName'
+
+2018-09-17 12:04:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Logout/btn- Next' is clicked on
+
+2018-09-17 12:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/btn- Next' is clicked on
+
+2018-09-17 12:04:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:04:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:04:36 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_Logout/input- Password'
+
+2018-09-17 12:04:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Logout/input- Password'
+
+2018-09-17 12:04:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Logout/btn- Login' is clicked on
+
+2018-09-17 12:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/btn- Login' is clicked on
+
+2018-09-17 12:04:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:04:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:04:38 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent("Sign in to Continue", false, OPTIONAL)): Successfully Loged Into WebApp
+
+2018-09-17 12:04:38 - [MESSAGE][PASSED] - Text 'Sign in to Continue' is not present on page
+
+2018-09-17 12:04:38 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Loged Into WebApp"): Successfully Loged Into WebApp
+
+2018-09-17 12:04:38 - [MESSAGE][WARNING] - Successfully Loged Into WebApp
+
+2018-09-17 12:04:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-17 12:04:38 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-17 12:04:38 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-17 12:04:38 - [MESSAGE][WARNING] - --- End Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master" classname="Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master" status="PASSED">
+         <system-out><![CDATA[2018-09-17 12:04:38 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master: Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master
+
+2018-09-17 12:04:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master ---
+
+2018-09-17 12:04:38 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master ---
+
+2018-09-17 12:04:38 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master ---
+
+2018-09-17 12:04:38 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-17 12:04:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:04:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:04:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page/tab- Dash Options' is clicked on
+
+2018-09-17 12:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page/tab- Dash Options' is clicked on
+
+2018-09-17 12:04:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:04:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:04:42 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-09-17 12:04:42 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-09-17 12:04:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:04:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:04:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/span- Page' is clicked on
+
+2018-09-17 12:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/span- Page' is clicked on
+
+2018-09-17 12:04:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:04:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:04:47 - [TEST_STEP][PASSED] - Statement - log.logWarning("Navigating to USER Master"): Navigating to USER Master
+
+2018-09-17 12:04:47 - [MESSAGE][WARNING] - Navigating to USER Master
+
+2018-09-17 12:04:47 - [TEST_STEP][PASSED] - Statement - pageText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/text- User Master)): Text of object 'Object Repository/Merchandising/_My Account/text- User Master' is: 'This screen is used to manage the users in the system.'
+
+2018-09-17 12:04:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/text- User Master' is: 'This screen is used to manage the users in the system.'
+
+2018-09-17 12:04:47 - [TEST_STEP][PASSED] - Statement - If (pageText.contains("manage the users")): Page text present on User Master = This screen is used to manage the users in the system.
+
+2018-09-17 12:04:47 - [TEST_STEP][PASSED] - Statement - log.logWarning("Page text present on User Master = " + pageText): Page text present on User Master = This screen is used to manage the users in the system.
+
+2018-09-17 12:04:47 - [MESSAGE][WARNING] - Page text present on User Master = This screen is used to manage the users in the system.
+
+2018-09-17 12:04:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-17 12:04:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-17 12:04:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master ---
+
+2018-09-17 12:04:48 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-17 12:04:48 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master ---
+
+2018-09-17 12:04:48 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Users Master/Navigate to Users Master ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users" classname="Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users" status="PASSED">
+         <system-out><![CDATA[2018-09-17 12:04:48 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users: Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users
+
+2018-09-17 12:04:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users ---
+
+2018-09-17 12:04:48 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users ---
+
+2018-09-17 12:04:48 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users ---
+
+2018-09-17 12:04:48 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-17 12:04:48 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-17 12:04:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:04:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-17 12:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - rows = Table.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr/td[4]/button[3]")): null
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - TotalRows = rows.size(): null
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - If (TotalRows >= 1): null
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - Else: Nothing to verify as there are currently no Active Users
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - log.logWarning("Nothing to verify as there are currently no Active Users"): Nothing to verify as there are currently no Active Users
+
+2018-09-17 12:04:50 - [MESSAGE][WARNING] - Nothing to verify as there are currently no Active Users
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users ---
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users ---
+
+2018-09-17 12:04:50 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- Active Users ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users" classname="Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users" status="PASSED">
+         <system-out><![CDATA[2018-09-17 12:04:50 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users: Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users ---
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users ---
+
+2018-09-17 12:04:50 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users ---
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-17 12:04:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:04:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:04:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-17 12:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-17 12:04:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-17 12:04:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Statement - rows = Table.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr/td[4]/button[3]")): null
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Statement - TotalRows = rows.size(): null
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Statement - If (TotalRows >= 1): null
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Statement - Else: Nothing to verify as there are currently no InActive Users
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Statement - log.logWarning("Nothing to verify as there are currently no InActive Users"): Nothing to verify as there are currently no InActive Users
+
+2018-09-17 12:04:54 - [MESSAGE][WARNING] - Nothing to verify as there are currently no InActive Users
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users ---
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-17 12:04:54 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users ---
+
+2018-09-17 12:04:54 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-17 12:04:26 - [TEST_SUITE][PASSED] - Regression- My Account- Users: Test Cases/Merchandising_My Account/_Users Master/Verify- InActive Users]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

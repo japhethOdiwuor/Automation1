@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify- NEW Role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c97d7b29-6168-41d7-8c00-e646e34a2712</testCaseGuid>
+   <variable>
+      <defaultValue>'DukaTest'</defaultValue>
+      <description></description>
+      <id>40da0a16-3863-464b-b86b-489d3b3e6d92</id>
+      <masked>false</masked>
+      <name>Role_Name</name>
+   </variable>
+</TestCaseEntity>

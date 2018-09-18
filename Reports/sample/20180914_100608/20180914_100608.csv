@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+sample,Chrome 68.0.3440.106,,2018-09-14 10:06:10,2018-09-14 10:06:28,18.668s,PASSED
+,,,,,,
+Test Cases/1. Login_Logout/Login- Standard Admin,Chrome 68.0.3440.106,,2018-09-14 10:06:10,2018-09-14 10:06:23,13.038s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-14 10:06:10,2018-09-14 10:06:10,0.023s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-14 10:06:10,2018-09-14 10:06:10,0.001s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-09-14 10:06:10,2018-09-14 10:06:17,6.648s,PASSED
+"Statement - log.logWarning(""URL in Use: "" + baseURL)",Chrome 68.0.3440.106,,2018-09-14 10:06:17,2018-09-14 10:06:17,0.001s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-09-14 10:06:17,2018-09-14 10:06:17,0.163s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-14 10:06:17,2018-09-14 10:06:18,1.023s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-09-14 10:06:18,2018-09-14 10:06:18,0.307s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-14 10:06:18,2018-09-14 10:06:18,0.108s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-14 10:06:18,2018-09-14 10:06:20,2.003s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-09-14 10:06:20,2018-09-14 10:06:21,0.136s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-14 10:06:21,2018-09-14 10:06:21,0.085s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-14 10:06:21,2018-09-14 10:06:23,2.003s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(""Sign in to Continue"", false, OPTIONAL))",Chrome 68.0.3440.106,,2018-09-14 10:06:23,2018-09-14 10:06:23,0.449s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-14 10:06:23,2018-09-14 10:06:23,0.003s,PASSED
+,,,,,,
+Test Cases/2. Landing Page/Verify- Available Screens,Chrome 68.0.3440.106,,2018-09-14 10:06:23,2018-09-14 10:06:28,4.563s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-14 10:06:23,2018-09-14 10:06:23,0.001s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-14 10:06:23,2018-09-14 10:06:23,0.001s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-14 10:06:23,2018-09-14 10:06:27,4.002s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 68.0.3440.106,,2018-09-14 10:06:27,2018-09-14 10:06:27,0.011s,PASSED
+"Statement - Pages = driver.findElement(org.openqa.selenium.By.xpath(""//*/div/nav/ul""))",Chrome 68.0.3440.106,To locate screen section on merchandising page,2018-09-14 10:06:27,2018-09-14 10:06:27,0.049s,PASSED
+"Statement - screens = Pages.findElements(org.openqa.selenium.By.xpath(""//*/div/nav/ul/li/a/span""))",Chrome 68.0.3440.106,Locate all screens available in merchandising page,2018-09-14 10:06:27,2018-09-14 10:06:27,0.031s,PASSED
+Statement - TotalScreens = screens.size(),Chrome 68.0.3440.106,,2018-09-14 10:06:27,2018-09-14 10:06:27,0.001s,PASSED
+"Statement - log.logWarning(""Screen Options Available ="" + TotalScreens)",Chrome 68.0.3440.106,,2018-09-14 10:06:27,2018-09-14 10:06:27,0.000s,PASSED
+"Statement - For ([i = 0, i < screens.size(), (i++)])",Chrome 68.0.3440.106,,2018-09-14 10:06:27,2018-09-14 10:06:28,0.382s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-14 10:06:28,2018-09-14 10:06:28,0.003s,PASSED

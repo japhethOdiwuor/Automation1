@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify- Search By Role Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8197d7e9-3347-4131-b5f6-4fbfc12a71e7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2e440f3-c46c-456e-bf5b-b57973b22b26</id>
+      <masked>false</masked>
+      <name>Search_Input</name>
+   </variable>
+</TestCaseEntity>

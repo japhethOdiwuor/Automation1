@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression- My Account- Roles" time="114" tests="10" failures="1" errors="1">
+   <testsuite name="Regression- My Account- Roles" tests="10" failures="1" errors="1" time="114" timestamp="2018-09-14 17:47:22" hostname="PRISCILLA - 192.168.13.172" id="Test Suites/Regression- My Account- Roles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation Katalon\\DukaMili\\Reports\\Regression- My Account- Roles\\20180914_174720"/>
+         <property name="logFiles" value="D:\\Automation Katalon\\DukaMili\\Reports\\Regression- My Account- Roles\\20180914_174720\\execution0.log"/>
+         <property name="attachments" value="D:\\Automation Katalon\\DukaMili\\Reports\\Regression- My Account- Roles\\20180914_174720\\1536936551514.png"/>
+         <property name="hostName" value="PRISCILLA - 192.168.13.172"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.13.172"/>
+         <property name="sessionId" value="7edf25f2e8047202598be4577b35b745"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1. Login_Logout/Login- Standard Admin" classname="Test Cases/1. Login_Logout/Login- Standard Admin" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:47:22 - [TEST_CASE][PASSED] - Test Cases/1. Login_Logout/Login- Standard Admin: Test Cases/1. Login_Logout/Login- Standard Admin
+
+2018-09-14 17:47:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 17:47:22 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 17:47:22 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 17:47:22 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:47:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://localhost:9632/#/page/login'
+
+2018-09-14 17:47:29 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:9632/#/page/login'
+
+2018-09-14 17:47:29 - [TEST_STEP][PASSED] - Statement - log.logWarning("URL in Use: " + baseURL): URL in Use: http://localhost:9632/#/page/login
+
+2018-09-14 17:47:29 - [MESSAGE][WARNING] - URL in Use: http://localhost:9632/#/page/login
+
+2018-09-14 17:47:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-14 17:47:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-14 17:47:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:47:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:47:30 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_Logout/input- UserName'
+
+2018-09-14 17:47:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Logout/input- UserName'
+
+2018-09-14 17:47:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Logout/btn- Next' is clicked on
+
+2018-09-14 17:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/btn- Next' is clicked on
+
+2018-09-14 17:47:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:47:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:47:32 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_Logout/input- Password'
+
+2018-09-14 17:47:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Logout/input- Password'
+
+2018-09-14 17:47:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Logout/btn- Login' is clicked on
+
+2018-09-14 17:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/btn- Login' is clicked on
+
+2018-09-14 17:47:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:47:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:47:34 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent("Sign in to Continue", false, OPTIONAL)): Successfully Loged Into WebApp
+
+2018-09-14 17:47:35 - [MESSAGE][PASSED] - Text 'Sign in to Continue' is not present on page
+
+2018-09-14 17:47:35 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Loged Into WebApp"): Successfully Loged Into WebApp
+
+2018-09-14 17:47:35 - [MESSAGE][WARNING] - Successfully Loged Into WebApp
+
+2018-09-14 17:47:35 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 17:47:35 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:47:35 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 17:47:35 - [MESSAGE][WARNING] - --- End Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master" classname="Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:47:35 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master: Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master
+
+2018-09-14 17:47:35 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master ---
+
+2018-09-14 17:47:35 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master ---
+
+2018-09-14 17:47:35 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master ---
+
+2018-09-14 17:47:35 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:47:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:47:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:47:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page/tab- Dash Options' is clicked on
+
+2018-09-14 17:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page/tab- Dash Options' is clicked on
+
+2018-09-14 17:47:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:47:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:47:39 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-09-14 17:47:39 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-09-14 17:47:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:47:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:47:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/span- Page' is clicked on
+
+2018-09-14 17:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/span- Page' is clicked on
+
+2018-09-14 17:47:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:47:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:47:43 - [TEST_STEP][PASSED] - Statement - log.logWarning("Navigating to Role Master"): Navigating to Role Master
+
+2018-09-14 17:47:43 - [MESSAGE][WARNING] - Navigating to Role Master
+
+2018-09-14 17:47:43 - [TEST_STEP][PASSED] - Statement - pageText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/text- Roles Master)): Text of object 'Object Repository/Merchandising/_My Account/text- Roles Master' is: 'This screen is used to manage the roles in the system.'
+
+2018-09-14 17:47:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/text- Roles Master' is: 'This screen is used to manage the roles in the system.'
+
+2018-09-14 17:47:44 - [TEST_STEP][PASSED] - Statement - If (pageText.contains("roles")): Page text present on Roles Master = This screen is used to manage the roles in the system.
+
+2018-09-14 17:47:44 - [TEST_STEP][PASSED] - Statement - log.logWarning("Page text present on Roles Master = " + pageText): Page text present on Roles Master = This screen is used to manage the roles in the system.
+
+2018-09-14 17:47:44 - [MESSAGE][WARNING] - Page text present on Roles Master = This screen is used to manage the roles in the system.
+
+2018-09-14 17:47:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:47:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:47:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master ---
+
+2018-09-14 17:47:45 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:47:45 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master ---
+
+2018-09-14 17:47:45 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Navigate to Roles Master ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate" classname="Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:47:45 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate: Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate
+
+2018-09-14 17:47:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate ---
+
+2018-09-14 17:47:45 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate ---
+
+2018-09-14 17:47:45 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate ---
+
+2018-09-14 17:47:45 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:47:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:47:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:47:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:47:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:47:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:47:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:47:49 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-14 17:47:49 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-14 17:47:49 - [TEST_STEP][PASSED] - Statement - rows = Table.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr/td[4]/button[3]")): null
+
+2018-09-14 17:47:49 - [TEST_STEP][PASSED] - Statement - TotalRows = rows.size(): null
+
+2018-09-14 17:47:49 - [TEST_STEP][PASSED] - Statement - If (TotalRows >= 2): Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:47:49 - [TEST_STEP][PASSED] - Statement - roleName_Active = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:2, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'posUser'
+
+2018-09-14 17:47:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'posUser'
+
+2018-09-14 17:47:49 - [TEST_STEP][PASSED] - Statement - log.logWarning("The Role Name selected before Bulk Deactivation = " + roleName_Active): The Role Name selected before Bulk Deactivation = posUser
+
+2018-09-14 17:47:49 - [MESSAGE][WARNING] - The Role Name selected before Bulk Deactivation = posUser
+
+2018-09-14 17:47:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/table- Check All' is clicked on
+
+2018-09-14 17:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/table- Check All' is clicked on
+
+2018-09-14 17:47:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:47:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:47:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/dropdown- Bulk Action' is clicked on
+
+2018-09-14 17:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/dropdown- Bulk Action' is clicked on
+
+2018-09-14 17:47:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:47:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:47:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/dropdown- Select- Bulk Action' is clicked on
+
+2018-09-14 17:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/dropdown- Select- Bulk Action' is clicked on
+
+2018-09-14 17:47:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Apply' is clicked on
+
+2018-09-14 17:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Apply' is clicked on
+
+2018-09-14 17:47:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:47:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:47:53 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/element- PopUp), 5, OPTIONAL)): PopUp Successfully Displayed For Attempted Deactivation
+
+2018-09-14 17:47:53 - [MESSAGE][PASSED] - Object 'Object Repository/Merchandising/_My Account/element- PopUp' is present
+
+2018-09-14 17:47:53 - [TEST_STEP][PASSED] - Statement - log.logWarning("PopUp Successfully Displayed For Attempted Deactivation"): PopUp Successfully Displayed For Attempted Deactivation
+
+2018-09-14 17:47:53 - [MESSAGE][WARNING] - PopUp Successfully Displayed For Attempted Deactivation
+
+2018-09-14 17:47:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:47:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:47:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:47:54 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(roleName_Active, false, OPTIONAL)): Success: Bulk Deactivation cancelled by Selecting NO on PopUp
+
+2018-09-14 17:47:54 - [MESSAGE][PASSED] - Text 'posUser' is present on page 
+
+2018-09-14 17:47:54 - [TEST_STEP][PASSED] - Statement - log.logWarning("Success: Bulk Deactivation cancelled by Selecting NO on PopUp"): Success: Bulk Deactivation cancelled by Selecting NO on PopUp
+
+2018-09-14 17:47:54 - [MESSAGE][WARNING] - Success: Bulk Deactivation cancelled by Selecting NO on PopUp
+
+2018-09-14 17:47:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Apply' is clicked on
+
+2018-09-14 17:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Apply' is clicked on
+
+2018-09-14 17:47:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:47:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:47:55 - [TEST_STEP][PASSED] - Statement - log.logWarning("--Proceeding to Test Role DeActivation by Selecting YES on PopUp"): --Proceeding to Test Role DeActivation by Selecting YES on PopUp
+
+2018-09-14 17:47:55 - [MESSAGE][WARNING] - --Proceeding to Test Role DeActivation by Selecting YES on PopUp
+
+2018-09-14 17:47:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:47:55 - [TEST_STEP][PASSED] - Statement - Messsage_PopUp = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/PopUp- Acti_DeActi(vation) Message)): Text of object 'Object Repository/Merchandising/_My Account/PopUp- Acti_DeActi(vation) Message' is: 'Success
+Deactivated 11 items successfully.'
+
+2018-09-14 17:47:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/PopUp- Acti_DeActi(vation) Message' is: 'Success
+Deactivated 11 items successfully.'
+
+2018-09-14 17:47:56 - [TEST_STEP][PASSED] - Statement - If (Messsage_PopUp.contains("Success")): Successfully Performed Bulk Deactivation Action
+
+2018-09-14 17:47:56 - [TEST_STEP][PASSED] - Statement - log.logWarning("Message on Deactivation = | " + Messsage_PopUp): Message on Deactivation = | Success
+Deactivated 11 items successfully.
+
+2018-09-14 17:47:56 - [MESSAGE][WARNING] - Message on Deactivation = | Success
+Deactivated 11 items successfully.
+
+2018-09-14 17:47:56 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Performed Bulk Deactivation Action"): Successfully Performed Bulk Deactivation Action
+
+2018-09-14 17:47:56 - [MESSAGE][WARNING] - Successfully Performed Bulk Deactivation Action
+
+2018-09-14 17:47:56 - [TEST_STEP][PASSED] - setText: Text 'posUser' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:47:56 - [MESSAGE][PASSED] - Text 'posUser' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:47:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:47:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:47:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:47:58 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:1, col:2]), 5, OPTIONAL)): Successfully Verified Previously Seected Role No Longer Active
+
+2018-09-14 17:47:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Merchandising/_My Account/table- Verify Data' located by 'By.xpath: //*/div[@class="col-sm-12"]//table/tbody/tr[1]/td[2]' is not present after '5' second(s)
+
+2018-09-14 17:47:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Verified Previously Seected Role No Longer Active"): Successfully Verified Previously Seected Role No Longer Active
+
+2018-09-14 17:47:58 - [MESSAGE][WARNING] - Successfully Verified Previously Seected Role No Longer Active
+
+2018-09-14 17:47:58 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:47:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:47:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:47:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate ---
+
+2018-09-14 17:47:58 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:47:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate ---
+
+2018-09-14 17:47:58 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action De-Activate ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate" classname="Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:47:58 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate: Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate
+
+2018-09-14 17:47:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate ---
+
+2018-09-14 17:47:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate ---
+
+2018-09-14 17:47:58 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate ---
+
+2018-09-14 17:47:59 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:47:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:03 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-14 17:48:03 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-14 17:48:03 - [TEST_STEP][PASSED] - Statement - rows = Table.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr/td[4]/button[3]")): null
+
+2018-09-14 17:48:03 - [TEST_STEP][PASSED] - Statement - TotalRows = rows.size(): null
+
+2018-09-14 17:48:03 - [TEST_STEP][PASSED] - Statement - If (TotalRows >= 2): Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:03 - [TEST_STEP][PASSED] - Statement - roleName_InActive = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:2, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'posUser'
+
+2018-09-14 17:48:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'posUser'
+
+2018-09-14 17:48:03 - [TEST_STEP][PASSED] - Statement - log.logWarning("The Role Name selected before Bulk Activation = " + roleName_InActive): The Role Name selected before Bulk Activation = posUser
+
+2018-09-14 17:48:03 - [MESSAGE][WARNING] - The Role Name selected before Bulk Activation = posUser
+
+2018-09-14 17:48:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/table- Check All' is clicked on
+
+2018-09-14 17:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/table- Check All' is clicked on
+
+2018-09-14 17:48:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:48:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:48:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/dropdown- Bulk Action' is clicked on
+
+2018-09-14 17:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/dropdown- Bulk Action' is clicked on
+
+2018-09-14 17:48:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:48:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:48:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/dropdown- Select- Bulk Action' is clicked on
+
+2018-09-14 17:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/dropdown- Select- Bulk Action' is clicked on
+
+2018-09-14 17:48:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Apply' is clicked on
+
+2018-09-14 17:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Apply' is clicked on
+
+2018-09-14 17:48:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:07 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/element- PopUp), 5, OPTIONAL)): PopUp Successfully Displayed For Attempted Activation
+
+2018-09-14 17:48:07 - [MESSAGE][PASSED] - Object 'Object Repository/Merchandising/_My Account/element- PopUp' is present
+
+2018-09-14 17:48:07 - [TEST_STEP][PASSED] - Statement - log.logWarning("PopUp Successfully Displayed For Attempted Activation"): PopUp Successfully Displayed For Attempted Activation
+
+2018-09-14 17:48:07 - [MESSAGE][WARNING] - PopUp Successfully Displayed For Attempted Activation
+
+2018-09-14 17:48:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:48:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:48:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:48:08 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(roleName_InActive, false, OPTIONAL)): Success: Bulk Activation cancelled by Selecting NO on PopUp
+
+2018-09-14 17:48:09 - [MESSAGE][PASSED] - Text 'posUser' is present on page 
+
+2018-09-14 17:48:09 - [TEST_STEP][PASSED] - Statement - log.logWarning("Success: Bulk Activation cancelled by Selecting NO on PopUp"): Success: Bulk Activation cancelled by Selecting NO on PopUp
+
+2018-09-14 17:48:09 - [MESSAGE][WARNING] - Success: Bulk Activation cancelled by Selecting NO on PopUp
+
+2018-09-14 17:48:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Apply' is clicked on
+
+2018-09-14 17:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Apply' is clicked on
+
+2018-09-14 17:48:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:48:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:48:10 - [TEST_STEP][PASSED] - Statement - log.logWarning("--Proceeding to Test Role Activation by Selecting YES on PopUp"): --Proceeding to Test Role Activation by Selecting YES on PopUp
+
+2018-09-14 17:48:10 - [MESSAGE][WARNING] - --Proceeding to Test Role Activation by Selecting YES on PopUp
+
+2018-09-14 17:48:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:48:10 - [TEST_STEP][PASSED] - Statement - Messsage_PopUp = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/PopUp- Acti_DeActi(vation) Message)): Text of object 'Object Repository/Merchandising/_My Account/PopUp- Acti_DeActi(vation) Message' is: 'Success
+Activated 11 items successfully.'
+
+2018-09-14 17:48:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/PopUp- Acti_DeActi(vation) Message' is: 'Success
+Activated 11 items successfully.'
+
+2018-09-14 17:48:11 - [TEST_STEP][PASSED] - Statement - If (Messsage_PopUp.contains("Success")): Successfully Performed Bulk Activation Action
+
+2018-09-14 17:48:11 - [TEST_STEP][PASSED] - Statement - log.logWarning("Message on Activation = | " + Messsage_PopUp): Message on Activation = | Success
+Activated 11 items successfully.
+
+2018-09-14 17:48:11 - [MESSAGE][WARNING] - Message on Activation = | Success
+Activated 11 items successfully.
+
+2018-09-14 17:48:11 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Performed Bulk Activation Action"): Successfully Performed Bulk Activation Action
+
+2018-09-14 17:48:11 - [MESSAGE][WARNING] - Successfully Performed Bulk Activation Action
+
+2018-09-14 17:48:11 - [TEST_STEP][PASSED] - setText: Text 'posUser' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:11 - [MESSAGE][PASSED] - Text 'posUser' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:1, col:2]), 5, OPTIONAL)): Successfully Verified Previously Seected Role No Longer InActive
+
+2018-09-14 17:48:13 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Merchandising/_My Account/table- Verify Data' located by 'By.xpath: //*/div[@class="col-sm-12"]//table/tbody/tr[1]/td[2]' is not present after '5' second(s)
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Verified Previously Seected Role No Longer InActive"): Successfully Verified Previously Seected Role No Longer InActive
+
+2018-09-14 17:48:13 - [MESSAGE][WARNING] - Successfully Verified Previously Seected Role No Longer InActive
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate ---
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate ---
+
+2018-09-14 17:48:13 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Bulk Action Activate ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active" classname="Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active" status="ERROR">
+         <error type="ERROR" message="Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active FAILED because (of) Page contains erroneous DATA"/>
+         <system-out><![CDATA[2018-09-14 17:48:13 - [TEST_CASE][ERROR] - Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active: Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active FAILED because (of) Page contains erroneous DATA
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active ---
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active ---
+
+2018-09-14 17:48:13 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active ---
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:48:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:48:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:48:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - rows = Table.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr/td[4]/button[3]")): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - TotalRows = rows.size(): null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - If (TotalRows >= 1): null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - For ([i = 0, i < rows.size(), (i++)]): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 0 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [MESSAGE][ERROR] - text on column 0 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 1 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [MESSAGE][ERROR] - text on column 1 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 2 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [MESSAGE][ERROR] - text on column 2 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 3 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [MESSAGE][ERROR] - text on column 3 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 4 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [MESSAGE][ERROR] - text on column 4 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 5 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [MESSAGE][ERROR] - text on column 5 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:16 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 6 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [MESSAGE][ERROR] - text on column 6 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:16 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:17 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:17 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 7 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:17 - [MESSAGE][ERROR] - text on column 7 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:17 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:17 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 8 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:17 - [MESSAGE][ERROR] - text on column 8 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:17 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:17 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 9 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:17 - [MESSAGE][ERROR] - text on column 9 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - expectedText = "Deactivate": null
+
+2018-09-14 17:48:17 - [TEST_STEP][ERROR] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:17 - [TEST_STEP][ERROR] - Statement - log.logError("text on column " + i + " = " + columntext + " | Expected Text->" + expectedText): text on column 10 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:17 - [MESSAGE][ERROR] - text on column 10 = Activate | Expected Text->Deactivate
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markError("Page contains erroneous DATA"): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active ---
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active ---
+
+2018-09-14 17:48:17 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active ---]]></system-out>
+         <system-err><![CDATA[2018-09-14 17:48:13 - [TEST_CASE][ERROR] - Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active: Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active FAILED because (of) Page contains erroneous DATA]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive" classname="Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:48:17 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive: Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive ---
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive ---
+
+2018-09-14 17:48:17 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive ---
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:48:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:48:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:48:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - rows = Table.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr/td[4]/button[3]")): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - TotalRows = rows.size(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - If (TotalRows >= 1): PASSED : text on column 6 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < rows.size(), (i++)]): PASSED : text on column 6 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - expectedText = "Activate": null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - Else: PASSED : text on column 0 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log.logWarning("PASSED : text on column " + i + " = " + columntext + " | Matches Expected text->" + expectedText): PASSED : text on column 0 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [MESSAGE][WARNING] - PASSED : text on column 0 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - expectedText = "Activate": null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - Else: PASSED : text on column 1 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log.logWarning("PASSED : text on column " + i + " = " + columntext + " | Matches Expected text->" + expectedText): PASSED : text on column 1 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [MESSAGE][WARNING] - PASSED : text on column 1 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - expectedText = "Activate": null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - Else: PASSED : text on column 2 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log.logWarning("PASSED : text on column " + i + " = " + columntext + " | Matches Expected text->" + expectedText): PASSED : text on column 2 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [MESSAGE][WARNING] - PASSED : text on column 2 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - expectedText = "Activate": null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - Else: PASSED : text on column 3 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log.logWarning("PASSED : text on column " + i + " = " + columntext + " | Matches Expected text->" + expectedText): PASSED : text on column 3 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [MESSAGE][WARNING] - PASSED : text on column 3 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - expectedText = "Activate": null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - Else: PASSED : text on column 4 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log.logWarning("PASSED : text on column " + i + " = " + columntext + " | Matches Expected text->" + expectedText): PASSED : text on column 4 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [MESSAGE][WARNING] - PASSED : text on column 4 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - expectedText = "Activate": null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - Else: PASSED : text on column 5 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log.logWarning("PASSED : text on column " + i + " = " + columntext + " | Matches Expected text->" + expectedText): PASSED : text on column 5 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [MESSAGE][WARNING] - PASSED : text on column 5 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - columntext = rows.get(i).getText().toString(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - expectedText = "Activate": null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - If (columntext != expectedText): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - Else: PASSED : text on column 6 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log.logWarning("PASSED : text on column " + i + " = " + columntext + " | Matches Expected text->" + expectedText): PASSED : text on column 6 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [MESSAGE][WARNING] - PASSED : text on column 6 = Activate | Matches Expected text->Activate
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive ---
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive ---
+
+2018-09-14 17:48:20 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Inactive ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name" classname="Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:48:20 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name: Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name ---
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name ---
+
+2018-09-14 17:48:20 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name ---
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:48:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:22 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-14 17:48:22 - [TEST_STEP][PASSED] - Statement - log.logWarning("-> executing for ALL filter Tab"): -> executing for ALL filter Tab
+
+2018-09-14 17:48:22 - [MESSAGE][WARNING] - -> executing for ALL filter Tab
+
+2018-09-14 17:48:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:24 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-14 17:48:24 - [TEST_STEP][PASSED] - Statement - rows = Table.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr")): null
+
+2018-09-14 17:48:24 - [TEST_STEP][PASSED] - Statement - TotalRows = rows.size(): null
+
+2018-09-14 17:48:24 - [TEST_STEP][PASSED] - Statement - If (TotalRows > 1): TEST for Search on ALL Roles Filter Page PASSED
+
+2018-09-14 17:48:24 - [TEST_STEP][PASSED] - Statement - log.logWarning("get roleName frm Table Row 3, Set it as search Input & verify tableResult on Row 1 after search"): get roleName frm Table Row 3, Set it as search Input & verify tableResult on Row 1 after search
+
+2018-09-14 17:48:24 - [MESSAGE][WARNING] - get roleName frm Table Row 3, Set it as search Input & verify tableResult on Row 1 after search
+
+2018-09-14 17:48:24 - [TEST_STEP][PASSED] - Statement - selected_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:3, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:25 - [TEST_STEP][PASSED] - setText: Text 'Test Edit Role--32' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:25 - [MESSAGE][PASSED] - Text 'Test Edit Role--32' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:27 - [TEST_STEP][PASSED] - Statement - tableResult_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:1, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:27 - [TEST_STEP][PASSED] - Statement - If (selected_RoleName == tableResult_RoleName): TEST for Search on ALL Roles Filter Page PASSED
+
+2018-09-14 17:48:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("RoleName selected from table Row 3 = " + selected_RoleName): RoleName selected from table Row 3 = Test Edit Role--32
+
+2018-09-14 17:48:27 - [MESSAGE][WARNING] - RoleName selected from table Row 3 = Test Edit Role--32
+
+2018-09-14 17:48:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("tableResult RoleName Row 1 after search = " + tableResult_RoleName): tableResult RoleName Row 1 after search = Test Edit Role--32
+
+2018-09-14 17:48:27 - [MESSAGE][WARNING] - tableResult RoleName Row 1 after search = Test Edit Role--32
+
+2018-09-14 17:48:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("TEST for Search on ALL Roles Filter Page PASSED"): TEST for Search on ALL Roles Filter Page PASSED
+
+2018-09-14 17:48:27 - [MESSAGE][WARNING] - TEST for Search on ALL Roles Filter Page PASSED
+
+2018-09-14 17:48:27 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:29 - [TEST_STEP][PASSED] - Statement - log.logWarning("-> Executing for ACTIVE filter Tab"): -> Executing for ACTIVE filter Tab
+
+2018-09-14 17:48:29 - [MESSAGE][WARNING] - -> Executing for ACTIVE filter Tab
+
+2018-09-14 17:48:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:31 - [TEST_STEP][PASSED] - Statement - Table2 = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-14 17:48:31 - [TEST_STEP][PASSED] - Statement - rows2 = Table2.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr")): null
+
+2018-09-14 17:48:31 - [TEST_STEP][PASSED] - Statement - TotalRows2 = rows2.size(): null
+
+2018-09-14 17:48:31 - [TEST_STEP][PASSED] - Statement - If (TotalRows2 > 1): TEST for Search on ACTIVE Roles Filter Page PASSED
+
+2018-09-14 17:48:31 - [TEST_STEP][PASSED] - Statement - log.logWarning("get roleName frm Table Row 3, Set it as search Input & verify tableResult on Row 1 after search"): get roleName frm Table Row 3, Set it as search Input & verify tableResult on Row 1 after search
+
+2018-09-14 17:48:31 - [MESSAGE][WARNING] - get roleName frm Table Row 3, Set it as search Input & verify tableResult on Row 1 after search
+
+2018-09-14 17:48:31 - [TEST_STEP][PASSED] - Statement - selected_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:3, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:31 - [TEST_STEP][PASSED] - setText: Text 'Test Edit Role--32' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:31 - [MESSAGE][PASSED] - Text 'Test Edit Role--32' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:33 - [TEST_STEP][PASSED] - Statement - tableResult_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:1, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:33 - [TEST_STEP][PASSED] - Statement - If (selected_RoleName == tableResult_RoleName): TEST for Search on ACTIVE Roles Filter Page PASSED
+
+2018-09-14 17:48:33 - [TEST_STEP][PASSED] - Statement - log.logWarning("RoleName selected from table Row 3 = " + selected_RoleName): RoleName selected from table Row 3 = Test Edit Role--32
+
+2018-09-14 17:48:33 - [MESSAGE][WARNING] - RoleName selected from table Row 3 = Test Edit Role--32
+
+2018-09-14 17:48:33 - [TEST_STEP][PASSED] - Statement - log.logWarning("tableResult RoleName Row 1 after search = " + tableResult_RoleName): tableResult RoleName Row 1 after search = Test Edit Role--32
+
+2018-09-14 17:48:33 - [MESSAGE][WARNING] - tableResult RoleName Row 1 after search = Test Edit Role--32
+
+2018-09-14 17:48:33 - [TEST_STEP][PASSED] - Statement - log.logWarning("TEST for Search on ACTIVE Roles Filter Page PASSED"): TEST for Search on ACTIVE Roles Filter Page PASSED
+
+2018-09-14 17:48:33 - [MESSAGE][WARNING] - TEST for Search on ACTIVE Roles Filter Page PASSED
+
+2018-09-14 17:48:33 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:35 - [TEST_STEP][PASSED] - Statement - log.logWarning("-> executing for IN-ACTIVE filter Tab"): -> executing for IN-ACTIVE filter Tab
+
+2018-09-14 17:48:35 - [MESSAGE][WARNING] - -> executing for IN-ACTIVE filter Tab
+
+2018-09-14 17:48:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:38 - [TEST_STEP][PASSED] - Statement - Table3 = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-14 17:48:38 - [TEST_STEP][PASSED] - Statement - rows3 = Table3.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr")): null
+
+2018-09-14 17:48:38 - [TEST_STEP][PASSED] - Statement - TotalRows3 = rows3.size(): null
+
+2018-09-14 17:48:38 - [TEST_STEP][PASSED] - Statement - If (TotalRows3 > 1): TEST for Search on IN-ACTIVE Roles Filter Page PASSED
+
+2018-09-14 17:48:38 - [TEST_STEP][PASSED] - Statement - log.logWarning("get roleName frm Table Row 2, Set it as search Input & verify tableResult on Row 1 after search"): get roleName frm Table Row 2, Set it as search Input & verify tableResult on Row 1 after search
+
+2018-09-14 17:48:38 - [MESSAGE][WARNING] - get roleName frm Table Row 2, Set it as search Input & verify tableResult on Row 1 after search
+
+2018-09-14 17:48:38 - [TEST_STEP][PASSED] - Statement - selected_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:2, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Pirelli Admin Role'
+
+2018-09-14 17:48:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Pirelli Admin Role'
+
+2018-09-14 17:48:38 - [TEST_STEP][PASSED] - setText: Text 'Pirelli Admin Role' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:38 - [MESSAGE][PASSED] - Text 'Pirelli Admin Role' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - tableResult_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:1, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Pirelli Admin Role'
+
+2018-09-14 17:48:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Pirelli Admin Role'
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - If (selected_RoleName == tableResult_RoleName): TEST for Search on IN-ACTIVE Roles Filter Page PASSED
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - log.logWarning("RoleName selected from table Row 3 = " + selected_RoleName): RoleName selected from table Row 3 = Pirelli Admin Role
+
+2018-09-14 17:48:40 - [MESSAGE][WARNING] - RoleName selected from table Row 3 = Pirelli Admin Role
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - log.logWarning("tableResult RoleName Row 1 after search = " + tableResult_RoleName): tableResult RoleName Row 1 after search = Pirelli Admin Role
+
+2018-09-14 17:48:40 - [MESSAGE][WARNING] - tableResult RoleName Row 1 after search = Pirelli Admin Role
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - log.logWarning("TEST for Search on IN-ACTIVE Roles Filter Page PASSED"): TEST for Search on IN-ACTIVE Roles Filter Page PASSED
+
+2018-09-14 17:48:40 - [MESSAGE][WARNING] - TEST for Search on IN-ACTIVE Roles Filter Page PASSED
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name ---
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name ---
+
+2018-09-14 17:48:40 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Search By Role Name ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role" classname="Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:48:40 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role: Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role ---
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role ---
+
+2018-09-14 17:48:40 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role ---
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - Statement - rnd = new java.util.Random(): null
+
+2018-09-14 17:48:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:48:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:48:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:43 - [TEST_STEP][PASSED] - Statement - table_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:3, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/table- Action Buttons' is clicked on
+
+2018-09-14 17:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/table- Action Buttons' is clicked on
+
+2018-09-14 17:48:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:46 - [TEST_STEP][PASSED] - Statement - EditPage_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name), "value"): Attribute 'value' of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:46 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name' is: 'Test Edit Role--32'
+
+2018-09-14 17:48:46 - [TEST_STEP][PASSED] - Statement - If (table_RoleName == EditPage_RoleName): Successfuly Verified Edit Button Links to Editing Page for Role Name selected
+
+2018-09-14 17:48:46 - [TEST_STEP][PASSED] - Statement - log.logWarning("RoleName Selected from Listing Page = " + table_RoleName + " | RoleName from EDIT Page = " + EditPage_RoleName): RoleName Selected from Listing Page = Test Edit Role--32 | RoleName from EDIT Page = Test Edit Role--32
+
+2018-09-14 17:48:46 - [MESSAGE][WARNING] - RoleName Selected from Listing Page = Test Edit Role--32 | RoleName from EDIT Page = Test Edit Role--32
+
+2018-09-14 17:48:46 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfuly Verified Edit Button Links to Editing Page for Role Name selected"): Successfuly Verified Edit Button Links to Editing Page for Role Name selected
+
+2018-09-14 17:48:46 - [MESSAGE][WARNING] - Successfuly Verified Edit Button Links to Editing Page for Role Name selected
+
+2018-09-14 17:48:46 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name' is cleared
+
+2018-09-14 17:48:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name' is cleared
+
+2018-09-14 17:48:46 - [TEST_STEP][PASSED] - Statement - n = rnd.nextInt(50) + 1: null
+
+2018-09-14 17:48:46 - [TEST_STEP][PASSED] - setText: Text 'Test Edit Role--14' is set on object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name'
+
+2018-09-14 17:48:46 - [MESSAGE][PASSED] - Text 'Test Edit Role--14' is set on object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name'
+
+2018-09-14 17:48:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save' is clicked on
+
+2018-09-14 17:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save' is clicked on
+
+2018-09-14 17:48:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:48 - [TEST_STEP][PASSED] - Statement - Message_AfterSaving = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/_EDIT- VIEW- NEW Roles/PopUp-Save Message)): Text of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/PopUp-Save Message' is: 'Updated Successfully!'
+
+2018-09-14 17:48:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/PopUp-Save Message' is: 'Updated Successfully!'
+
+2018-09-14 17:48:48 - [TEST_STEP][PASSED] - Statement - If (Message_AfterSaving.contains("Success")): PASSED: Role Edited and Saved Successfully
+
+2018-09-14 17:48:48 - [TEST_STEP][PASSED] - Statement - log.logWarning("Displayed Message = " + Message_AfterSaving): Displayed Message = Updated Successfully!
+
+2018-09-14 17:48:48 - [MESSAGE][WARNING] - Displayed Message = Updated Successfully!
+
+2018-09-14 17:48:48 - [TEST_STEP][PASSED] - Statement - log.logWarning("PASSED: Role Edited and Saved Successfully"): PASSED: Role Edited and Saved Successfully
+
+2018-09-14 17:48:48 - [MESSAGE][WARNING] - PASSED: Role Edited and Saved Successfully
+
+2018-09-14 17:48:48 - [TEST_STEP][PASSED] - Statement - RoleName_AfterEdit = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name), "value"): Attribute 'value' of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name' is: 'Test Edit Role--14'
+
+2018-09-14 17:48:48 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name' is: 'Test Edit Role--14'
+
+2018-09-14 17:48:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save' is clicked on
+
+2018-09-14 17:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save' is clicked on
+
+2018-09-14 17:48:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:48:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:48:49 - [TEST_STEP][PASSED] - setText: Text 'Test Edit Role--14' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:50 - [MESSAGE][PASSED] - Text 'Test Edit Role--14' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:48:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Statement - table_Result_EditedRoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:1, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--14'
+
+2018-09-14 17:48:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--14'
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Statement - If (table_Result_EditedRoleName.equalsIgnoreCase(RoleName_AfterEdit)): Successfully EDITED RoleName
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Statement - log.logWarning("tableResult RoleName after Search = " + table_Result_EditedRoleName + " | RoleName set during Edit = " + RoleName_AfterEdit): tableResult RoleName after Search = Test Edit Role--14 | RoleName set during Edit = Test Edit Role--14
+
+2018-09-14 17:48:52 - [MESSAGE][WARNING] - tableResult RoleName after Search = Test Edit Role--14 | RoleName set during Edit = Test Edit Role--14
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully EDITED RoleName"): Successfully EDITED RoleName
+
+2018-09-14 17:48:52 - [MESSAGE][WARNING] - Successfully EDITED RoleName
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role ---
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role ---
+
+2018-09-14 17:48:52 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- EDIT Role ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role" classname="Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:48:52 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role: Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role ---
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role ---
+
+2018-09-14 17:48:52 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role ---
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:48:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:48:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:48:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:48:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:55 - [TEST_STEP][PASSED] - Statement - table_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:3, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--14'
+
+2018-09-14 17:48:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Test Edit Role--14'
+
+2018-09-14 17:48:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/table- Action Buttons' is clicked on
+
+2018-09-14 17:48:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/table- Action Buttons' is clicked on
+
+2018-09-14 17:48:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:48:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:48:57 - [TEST_STEP][PASSED] - Statement - ViewPage_RoleName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name), "value"): Attribute 'value' of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name' is: 'Test Edit Role--14'
+
+2018-09-14 17:48:58 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name' is: 'Test Edit Role--14'
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - If (table_RoleName == ViewPage_RoleName): Successfuly Verified VIEW Button Links to VIEW Page for Selected Role Name
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("RoleName Selected from Listing Page = " + table_RoleName + " | RoleName from VIEW Page = " + ViewPage_RoleName): RoleName Selected from Listing Page = Test Edit Role--14 | RoleName from VIEW Page = Test Edit Role--14
+
+2018-09-14 17:48:58 - [MESSAGE][WARNING] - RoleName Selected from Listing Page = Test Edit Role--14 | RoleName from VIEW Page = Test Edit Role--14
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfuly Verified VIEW Button Links to VIEW Page for Selected Role Name"): Successfuly Verified VIEW Button Links to VIEW Page for Selected Role Name
+
+2018-09-14 17:48:58 - [MESSAGE][WARNING] - Successfuly Verified VIEW Button Links to VIEW Page for Selected Role Name
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name), OPTIONAL)): Successfully Verified Field cannot Be Edited In VIEW Mode
+
+2018-09-14 17:48:58 - [MESSAGE][PASSED] - Object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/input- Role Name' is NOT clickable
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Verified Field cannot Be Edited In VIEW Mode"): Successfully Verified Field cannot Be Edited In VIEW Mode
+
+2018-09-14 17:48:58 - [MESSAGE][WARNING] - Successfully Verified Field cannot Be Edited In VIEW Mode
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save' is clicked on
+
+2018-09-14 17:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save' is clicked on
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisibleInViewport(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save, [Action:Reset]), 5, OPTIONAL) && com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisibleInViewport(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save, [Action:Save]), 5, OPTIONAL)): On VIEW Page Only ``LIST`` Action Button is Available
+
+2018-09-14 17:48:58 - [MESSAGE][PASSED] - Object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save' is present and NOT visible in viewport
+
+2018-09-14 17:48:58 - [MESSAGE][PASSED] - Object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save' is present and NOT visible in viewport
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("On VIEW Page Only ``LIST`` Action Button is Available"): On VIEW Page Only ``LIST`` Action Button is Available
+
+2018-09-14 17:48:58 - [MESSAGE][WARNING] - On VIEW Page Only ``LIST`` Action Button is Available
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save, [Action:New]), 5, OPTIONAL)): List Button Navigates user Back to Listing Page
+
+2018-09-14 17:48:58 - [MESSAGE][PASSED] - Object 'Object Repository/Merchandising/_My Account/_EDIT- VIEW- NEW Roles/btn- List_Reset_Save' is present and visible in viewport
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("List Button Navigates user Back to Listing Page"): List Button Navigates user Back to Listing Page
+
+2018-09-14 17:48:58 - [MESSAGE][WARNING] - List Button Navigates user Back to Listing Page
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role ---
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role ---
+
+2018-09-14 17:48:58 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- VIEW Role ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation" classname="Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:48:58 - [TEST_CASE][PASSED] - Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation: Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation ---
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation ---
+
+2018-09-14 17:48:58 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation ---
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:48:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:49:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:49:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' is clicked on
+
+2018-09-14 17:49:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:49:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:49:02 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-14 17:49:02 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table")): null
+
+2018-09-14 17:49:02 - [TEST_STEP][PASSED] - Statement - rows = Table.findElements(org.openqa.selenium.By.xpath("//*/div[@class="col-sm-12"]//table/tbody/tr/td[4]/button[3]")): null
+
+2018-09-14 17:49:02 - [TEST_STEP][PASSED] - Statement - TotalRows = rows.size(): null
+
+2018-09-14 17:49:02 - [TEST_STEP][PASSED] - Statement - If (TotalRows >= 1): Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:49:02 - [TEST_STEP][PASSED] - Statement - roleName_InActive = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:1, col:2])): Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Trialtest Admin Role'
+
+2018-09-14 17:49:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/table- Verify Data' is: 'Trialtest Admin Role'
+
+2018-09-14 17:49:02 - [TEST_STEP][PASSED] - Statement - log.logWarning("Role Name selected before Activation = " + roleName_InActive): Role Name selected before Activation = Trialtest Admin Role
+
+2018-09-14 17:49:02 - [MESSAGE][WARNING] - Role Name selected before Activation = Trialtest Admin Role
+
+2018-09-14 17:49:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/table- Action Buttons' is clicked on
+
+2018-09-14 17:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/table- Action Buttons' is clicked on
+
+2018-09-14 17:49:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:49:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:49:04 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/element- PopUp), 5, OPTIONAL)): PopUp Successfully Displayed For Attempted Activation
+
+2018-09-14 17:49:04 - [MESSAGE][PASSED] - Object 'Object Repository/Merchandising/_My Account/element- PopUp' is present
+
+2018-09-14 17:49:04 - [TEST_STEP][PASSED] - Statement - log.logWarning("PopUp Successfully Displayed For Attempted Activation"): PopUp Successfully Displayed For Attempted Activation
+
+2018-09-14 17:49:04 - [MESSAGE][WARNING] - PopUp Successfully Displayed For Attempted Activation
+
+2018-09-14 17:49:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:49:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:49:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:49:05 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(roleName_InActive, false, OPTIONAL)): Success: Activation cancelled by Selecting NO on PopUp
+
+2018-09-14 17:49:06 - [MESSAGE][PASSED] - Text 'Trialtest Admin Role' is present on page 
+
+2018-09-14 17:49:06 - [TEST_STEP][PASSED] - Statement - log.logWarning("Success: Activation cancelled by Selecting NO on PopUp"): Success: Activation cancelled by Selecting NO on PopUp
+
+2018-09-14 17:49:06 - [MESSAGE][WARNING] - Success: Activation cancelled by Selecting NO on PopUp
+
+2018-09-14 17:49:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/table- Action Buttons' is clicked on
+
+2018-09-14 17:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/table- Action Buttons' is clicked on
+
+2018-09-14 17:49:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:49:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:49:07 - [TEST_STEP][PASSED] - Statement - log.logWarning("--Proceeding to Test Role Activation by Selecting YES on PopUp"): --Proceeding to Test Role Activation by Selecting YES on PopUp
+
+2018-09-14 17:49:07 - [MESSAGE][WARNING] - --Proceeding to Test Role Activation by Selecting YES on PopUp
+
+2018-09-14 17:49:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/element- PopUp- btn Select' is clicked on
+
+2018-09-14 17:49:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 17:49:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 17:49:08 - [TEST_STEP][PASSED] - Statement - Messsage_PopUp = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/PopUp- Acti_DeActi(vation) Message)): Text of object 'Object Repository/Merchandising/_My Account/PopUp- Acti_DeActi(vation) Message' is: 'Success
+Activated 1 items successfully.'
+
+2018-09-14 17:49:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/PopUp- Acti_DeActi(vation) Message' is: 'Success
+Activated 1 items successfully.'
+
+2018-09-14 17:49:08 - [TEST_STEP][PASSED] - Statement - If (Messsage_PopUp.contains("Success")): Successfully Performed Single Role Activation
+
+2018-09-14 17:49:08 - [TEST_STEP][PASSED] - Statement - log.logWarning("Message on Activation = | " + Messsage_PopUp): Message on Activation = | Success
+Activated 1 items successfully.
+
+2018-09-14 17:49:08 - [MESSAGE][WARNING] - Message on Activation = | Success
+Activated 1 items successfully.
+
+2018-09-14 17:49:08 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Performed Single Role Activation"): Successfully Performed Single Role Activation
+
+2018-09-14 17:49:08 - [MESSAGE][WARNING] - Successfully Performed Single Role Activation
+
+2018-09-14 17:49:08 - [TEST_STEP][PASSED] - setText: Text 'Trialtest Admin Role' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:49:09 - [MESSAGE][PASSED] - Text 'Trialtest Admin Role' is set on object 'Object Repository/Merchandising/_My Account/input- Search'
+
+2018-09-14 17:49:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:49:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:49:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/table- Verify Data, [row:1, col:2]), 5, OPTIONAL)): Successfully Verified Previously Selected Role No Longer InActive
+
+2018-09-14 17:49:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Merchandising/_My Account/table- Verify Data' located by 'By.xpath: //*/div[@class="col-sm-12"]//table/tbody/tr[1]/td[2]' is not present after '5' second(s)
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Verified Previously Selected Role No Longer InActive"): Successfully Verified Previously Selected Role No Longer InActive
+
+2018-09-14 17:49:11 - [MESSAGE][WARNING] - Successfully Verified Previously Selected Role No Longer InActive
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:49:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Merchandising/_My Account/input- Search' is cleared
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Merchandising/_My Account/btn- Search' is clicked on
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation ---
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation ---
+
+2018-09-14 17:49:11 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Single Role Activation ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination" classname="Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;ng-scope&quot;>...&lt;/span> is not clickable at point (258, 142). Other element would receive the click: &lt;div class=&quot;block-ui-overlay&quot;>&lt;/div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CLLQAPRIADT058', ip: '192.168.13.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 7edf25f2e8047202598be4577b35b745)"/>
+         <system-out><![CDATA[2018-09-14 17:49:11 - [TEST_CASE][FAILED] - Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination: Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination FAILED because (of) Unable to click on object 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="ng-scope">...</span> is not clickable at point (258, 142). Other element would receive the click: <div class="block-ui-overlay"></div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CLLQAPRIADT058', ip: '192.168.13.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 7edf25f2e8047202598be4577b35b745)
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination ---
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination ---
+
+2018-09-14 17:49:11 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination ---
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:49:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="ng-scope">...</span> is not clickable at point (258, 142). Other element would receive the click: <div class="block-ui-overlay"></div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CLLQAPRIADT058', ip: '192.168.13.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 7edf25f2e8047202598be4577b35b745)
+
+2018-09-14 17:49:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="ng-scope">...</span> is not clickable at point (258, 142). Other element would receive the click: <div class="block-ui-overlay"></div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CLLQAPRIADT058', ip: '192.168.13.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 7edf25f2e8047202598be4577b35b745)
+[[ATTACHMENT|D:\\Automation Katalon\\DukaMili\\Reports\\Regression- My Account- Roles\\20180914_174720\\1536936551514.png]]
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination ---
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination ---
+
+2018-09-14 17:49:11 - [MESSAGE][WARNING] - --- End Test:= Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination ---]]></system-out>
+         <system-err><![CDATA[2018-09-14 17:49:11 - [TEST_CASE][FAILED] - Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination: Test Cases/Merchandising_My Account/_Roles Master/Verify- Table Pagination FAILED because (of) Unable to click on object 'Object Repository/Merchandising/_My Account/label- tabs -(All_Active_Inactive)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="ng-scope">...</span> is not clickable at point (258, 142). Other element would receive the click: <div class="block-ui-overlay"></div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CLLQAPRIADT058', ip: '192.168.13.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 7edf25f2e8047202598be4577b35b745)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Login_Logout/Logout- From Application" classname="Test Cases/1. Login_Logout/Logout- From Application" status="PASSED">
+         <system-out><![CDATA[2018-09-14 17:49:11 - [TEST_CASE][PASSED] - Test Cases/1. Login_Logout/Logout- From Application: Test Cases/1. Login_Logout/Logout- From Application
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/1. Login_Logout/Logout- From Application ---
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/1. Login_Logout/Logout- From Application ---
+
+2018-09-14 17:49:11 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/1. Login_Logout/Logout- From Application ---
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 17:49:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:49:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:49:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Logout/btn- LogOut' is clicked on
+
+2018-09-14 17:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/btn- LogOut' is clicked on
+
+2018-09-14 17:49:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 17:49:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 17:49:16 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Sign in to Continue", false, OPTIONAL)): Successfully Logged Out of Application
+
+2018-09-14 17:49:16 - [MESSAGE][PASSED] - Text 'Sign in to Continue' is present on page 
+
+2018-09-14 17:49:16 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Logged Out of Application"): Successfully Logged Out of Application
+
+2018-09-14 17:49:16 - [MESSAGE][WARNING] - Successfully Logged Out of Application
+
+2018-09-14 17:49:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/1. Login_Logout/Logout- From Application ---
+
+2018-09-14 17:49:16 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 17:49:16 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/1. Login_Logout/Logout- From Application ---
+
+2018-09-14 17:49:16 - [MESSAGE][WARNING] - --- End Test:= Test Cases/1. Login_Logout/Logout- From Application ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-14 17:47:22 - [TEST_SUITE][ERROR] - Regression- My Account- Roles: Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active FAILED because (of) Page contains erroneous DATA]]></system-out>
+      <system-err><![CDATA[2018-09-14 17:47:22 - [TEST_SUITE][ERROR] - Regression- My Account- Roles: Test Cases/Merchandising_My Account/_Roles Master/Verify- Roles Active FAILED because (of) Page contains erroneous DATA]]></system-err>
+   </testsuite>
+</testsuites>

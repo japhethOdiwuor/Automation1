@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify- Search By Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cf50790-ff4e-4a49-a3cc-aac110296e29</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description>Full Name wil be used as search input</description>
+      <id>327d9d41-cbf2-42b9-95d5-172fb24fff1d</id>
+      <masked>false</masked>
+      <name>row_get_Email</name>
+   </variable>
+</TestCaseEntity>

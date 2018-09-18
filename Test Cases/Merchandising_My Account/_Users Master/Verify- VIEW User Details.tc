@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify- VIEW User Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56289c11-872d-4e71-bef7-7ba7bcf72a70</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>6583a155-610e-4e69-be25-0b818666c631</id>
+      <masked>false</masked>
+      <name>VIEW_User_ROW</name>
+   </variable>
+</TestCaseEntity>

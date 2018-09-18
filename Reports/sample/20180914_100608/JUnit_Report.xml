@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="sample" time="18" tests="2" failures="0" errors="0">
+   <testsuite name="sample" tests="2" failures="0" errors="0" time="18" timestamp="2018-09-14 10:06:10" hostname="PRISCILLA - 192.168.13.172" id="Test Suites/sample">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation Katalon\\DukaMili\\Reports\\sample\\20180914_100608"/>
+         <property name="logFiles" value="D:\\Automation Katalon\\DukaMili\\Reports\\sample\\20180914_100608\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PRISCILLA - 192.168.13.172"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.13.172"/>
+         <property name="sessionId" value="b983d2f3ee344aac985f40d917f74be0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1. Login_Logout/Login- Standard Admin" classname="Test Cases/1. Login_Logout/Login- Standard Admin" status="PASSED">
+         <system-out><![CDATA[2018-09-14 10:06:10 - [TEST_CASE][PASSED] - Test Cases/1. Login_Logout/Login- Standard Admin: Test Cases/1. Login_Logout/Login- Standard Admin
+
+2018-09-14 10:06:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 10:06:10 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 10:06:10 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 10:06:10 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 10:06:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://localhost:9632/#/page/login'
+
+2018-09-14 10:06:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:9632/#/page/login'
+
+2018-09-14 10:06:17 - [TEST_STEP][PASSED] - Statement - log.logWarning("URL in Use: " + baseURL): URL in Use: http://localhost:9632/#/page/login
+
+2018-09-14 10:06:17 - [MESSAGE][WARNING] - URL in Use: http://localhost:9632/#/page/login
+
+2018-09-14 10:06:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-14 10:06:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-14 10:06:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-14 10:06:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-14 10:06:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_Logout/input- UserName'
+
+2018-09-14 10:06:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Logout/input- UserName'
+
+2018-09-14 10:06:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Logout/btn- Next' is clicked on
+
+2018-09-14 10:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/btn- Next' is clicked on
+
+2018-09-14 10:06:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 10:06:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 10:06:20 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login_Logout/input- Password'
+
+2018-09-14 10:06:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_Logout/input- Password'
+
+2018-09-14 10:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Logout/btn- Login' is clicked on
+
+2018-09-14 10:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/btn- Login' is clicked on
+
+2018-09-14 10:06:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-14 10:06:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-14 10:06:23 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent("Sign in to Continue", false, OPTIONAL)): Successfully Loged Into WebApp
+
+2018-09-14 10:06:23 - [MESSAGE][PASSED] - Text 'Sign in to Continue' is not present on page
+
+2018-09-14 10:06:23 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Loged Into WebApp"): Successfully Loged Into WebApp
+
+2018-09-14 10:06:23 - [MESSAGE][WARNING] - Successfully Loged Into WebApp
+
+2018-09-14 10:06:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 10:06:23 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 10:06:23 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---
+
+2018-09-14 10:06:23 - [MESSAGE][WARNING] - --- End Test:= Test Cases/1. Login_Logout/Login- Standard Admin ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2. Landing Page/Verify- Available Screens" classname="Test Cases/2. Landing Page/Verify- Available Screens" status="PASSED">
+         <system-out><![CDATA[2018-09-14 10:06:23 - [TEST_CASE][PASSED] - Test Cases/2. Landing Page/Verify- Available Screens: Test Cases/2. Landing Page/Verify- Available Screens
+
+2018-09-14 10:06:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: --- Begin Test:= Test Cases/2. Landing Page/Verify- Available Screens ---
+
+2018-09-14 10:06:23 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- Begin Test:= " + testCaseContext.getTestCaseId() + " ---"): --- Begin Test:= Test Cases/2. Landing Page/Verify- Available Screens ---
+
+2018-09-14 10:06:23 - [MESSAGE][WARNING] - --- Begin Test:= Test Cases/2. Landing Page/Verify- Available Screens ---
+
+2018-09-14 10:06:23 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-14 10:06:23 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-09-14 10:06:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - Pages = driver.findElement(org.openqa.selenium.By.xpath("//*/div/nav/ul")): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - screens = Pages.findElements(org.openqa.selenium.By.xpath("//*/div/nav/ul/li/a/span")): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - TotalScreens = screens.size(): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen Options Available =" + TotalScreens): Screen Options Available =11
+
+2018-09-14 10:06:27 - [MESSAGE][WARNING] - Screen Options Available =11
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < screens.size(), (i++)]): Screen option 10 = My Help
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 0 = Dashboard
+
+2018-09-14 10:06:27 - [MESSAGE][WARNING] - Screen option 0 = Dashboard
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 1 = Settings
+
+2018-09-14 10:06:27 - [MESSAGE][WARNING] - Screen option 1 = Settings
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 2 = Organisation Hierarchy
+
+2018-09-14 10:06:27 - [MESSAGE][WARNING] - Screen option 2 = Organisation Hierarchy
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 3 = Terminal Master
+
+2018-09-14 10:06:27 - [MESSAGE][WARNING] - Screen option 3 = Terminal Master
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 4 = My Account
+
+2018-09-14 10:06:27 - [MESSAGE][WARNING] - Screen option 4 = My Account
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 5 = My Products
+
+2018-09-14 10:06:27 - [MESSAGE][WARNING] - Screen option 5 = My Products
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 6 = My Messages
+
+2018-09-14 10:06:27 - [MESSAGE][WARNING] - Screen option 6 = My Messages
+
+2018-09-14 10:06:27 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 7 = My Reports
+
+2018-09-14 10:06:28 - [MESSAGE][WARNING] - Screen option 7 = My Reports
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 8 = My Requests
+
+2018-09-14 10:06:28 - [MESSAGE][WARNING] - Screen option 8 = My Requests
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 9 = My Learning Modules
+
+2018-09-14 10:06:28 - [MESSAGE][WARNING] - Screen option 9 = My Learning Modules
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Statement - screentext = screens.get(i).getText().toString(): null
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Statement - log.logWarning("Screen option " + i + " = " + screentext): Screen option 10 = My Help
+
+2018-09-14 10:06:28 - [MESSAGE][WARNING] - Screen option 10 = My Help
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: --- End Test:= Test Cases/2. Landing Page/Verify- Available Screens ---
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Statement - testCaseContextB = testCaseContext.getTestCaseId(): null
+
+2018-09-14 10:06:28 - [TEST_STEP][PASSED] - Statement - log.logWarning("--- End Test:= " + testCaseContextB + " ---"): --- End Test:= Test Cases/2. Landing Page/Verify- Available Screens ---
+
+2018-09-14 10:06:28 - [MESSAGE][WARNING] - --- End Test:= Test Cases/2. Landing Page/Verify- Available Screens ---]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-14 10:06:10 - [TEST_SUITE][PASSED] - sample: Test Cases/2. Landing Page/Verify- Available Screens]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

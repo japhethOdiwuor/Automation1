@@ -1,0 +1,126 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression- My Account- Roles,Chrome 68.0.3440.106,,2018-09-13 16:44:04,2018-09-13 16:45:17,1m - 13.431s,ERROR
+,,,,,,
+Test Cases/1. Login_Logout/Login- Standard Admin,Chrome 68.0.3440.106,,2018-09-13 16:44:04,2018-09-13 16:44:17,13.299s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:04,2018-09-13 16:44:04,0.018s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:44:04,2018-09-13 16:44:04,0.001s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-09-13 16:44:04,2018-09-13 16:44:09,5.218s,PASSED
+"Statement - log.logWarning(""URL in Use: "" + baseURL)",Chrome 68.0.3440.106,,2018-09-13 16:44:09,2018-09-13 16:44:09,0.002s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-09-13 16:44:09,2018-09-13 16:44:10,0.133s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:10,2018-09-13 16:44:11,1.019s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-09-13 16:44:11,2018-09-13 16:44:11,0.310s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:44:11,2018-09-13 16:44:11,0.096s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:11,2018-09-13 16:44:13,2.002s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-09-13 16:44:13,2018-09-13 16:44:13,0.112s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:44:13,2018-09-13 16:44:13,0.096s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:13,2018-09-13 16:44:16,3.002s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(""Sign in to Continue"", false, OPTIONAL))",Chrome 68.0.3440.106,,2018-09-13 16:44:16,2018-09-13 16:44:17,1.207s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:17,2018-09-13 16:44:17,0.003s,PASSED
+,,,,,,
+Test Cases/Merchandising_My Account/_Roles/Navigate to Roles Master,Chrome 68.0.3440.106,,2018-09-13 16:44:17,2018-09-13 16:44:28,10.506s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:17,2018-09-13 16:44:17,0.002s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:44:18,2018-09-13 16:44:18,0.001s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:18,2018-09-13 16:44:21,3.003s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:44:21,2018-09-13 16:44:21,0.144s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:21,2018-09-13 16:44:24,3.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:44:24,2018-09-13 16:44:24,0.103s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:24,2018-09-13 16:44:26,2.003s,PASSED
+"Statement - log.logWarning(""Navigating to Role Master"")",Chrome 68.0.3440.106,,2018-09-13 16:44:26,2018-09-13 16:44:26,0.002s,PASSED
+Statement - pageText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Merchandising/_My Account/text- Roles Master)),Chrome 68.0.3440.106,,2018-09-13 16:44:26,2018-09-13 16:44:26,0.083s,PASSED
+"Statement - If (pageText.contains(""roles""))",Chrome 68.0.3440.106,,2018-09-13 16:44:26,2018-09-13 16:44:26,0.002s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:26,2018-09-13 16:44:28,2.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:28,2018-09-13 16:44:28,0.007s,PASSED
+,,,,,,
+Test Cases/Merchandising_My Account/_Roles/Verify- Bulk Action De-Activate,Chrome 68.0.3440.106,,2018-09-13 16:44:28,2018-09-13 16:44:39,11.098s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:28,2018-09-13 16:44:28,0.001s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:44:28,2018-09-13 16:44:28,0.001s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:28,2018-09-13 16:44:30,2.004s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:44:30,2018-09-13 16:44:30,0.134s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:30,2018-09-13 16:44:32,2.003s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 68.0.3440.106,,2018-09-13 16:44:32,2018-09-13 16:44:32,0.018s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table""))",Chrome 68.0.3440.106,To locate table on Roles Master Page,2018-09-13 16:44:32,2018-09-13 16:44:32,0.050s,PASSED
+"Statement - rows = Table.findElements(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table/tbody/tr/td[4]/button[3]""))",Chrome 68.0.3440.106,Locate all rows available in roles master page,2018-09-13 16:44:32,2018-09-13 16:44:32,0.024s,PASSED
+Statement - TotalRows = rows.size(),Chrome 68.0.3440.106,,2018-09-13 16:44:32,2018-09-13 16:44:32,0.001s,PASSED
+Statement - If (TotalRows >= 2),Chrome 68.0.3440.106,,2018-09-13 16:44:32,2018-09-13 16:44:39,6.671s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:39,2018-09-13 16:44:39,0.002s,PASSED
+,,,,,,
+Test Cases/Merchandising_My Account/_Roles/Verify- Bulk Action Activate,Chrome 68.0.3440.106,,2018-09-13 16:44:39,2018-09-13 16:44:50,10.534s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:39,2018-09-13 16:44:39,0.002s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:44:39,2018-09-13 16:44:39,0.001s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:39,2018-09-13 16:44:41,2.003s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:44:41,2018-09-13 16:44:41,0.101s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:41,2018-09-13 16:44:43,2.001s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 68.0.3440.106,,2018-09-13 16:44:43,2018-09-13 16:44:43,0.001s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table""))",Chrome 68.0.3440.106,To locate table on Roles Master Page,2018-09-13 16:44:43,2018-09-13 16:44:43,0.011s,PASSED
+"Statement - rows = Table.findElements(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table/tbody/tr/td[4]/button[3]""))",Chrome 68.0.3440.106,Locate all rows available in roles master page,2018-09-13 16:44:43,2018-09-13 16:44:43,0.011s,PASSED
+Statement - TotalRows = rows.size(),Chrome 68.0.3440.106,,2018-09-13 16:44:43,2018-09-13 16:44:43,0.001s,PASSED
+Statement - If (TotalRows >= 2),Chrome 68.0.3440.106,,2018-09-13 16:44:43,2018-09-13 16:44:50,6.234s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:50,2018-09-13 16:44:50,0.001s,PASSED
+,,,,,,
+Test Cases/Merchandising_My Account/_Roles/Verify- Roles Active,Chrome 68.0.3440.106,,2018-09-13 16:44:50,2018-09-13 16:44:53,3.554s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:50,2018-09-13 16:44:50,0.001s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:44:50,2018-09-13 16:44:50,0.000s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:50,2018-09-13 16:44:51,1.001s,PASSED
+click,Chrome 68.0.3440.106,Click on Active tab selection,2018-09-13 16:44:51,2018-09-13 16:44:51,0.070s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:51,2018-09-13 16:44:53,2.002s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 68.0.3440.106,,2018-09-13 16:44:53,2018-09-13 16:44:53,0.000s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table""))",Chrome 68.0.3440.106,To locate table on Roles Master Page,2018-09-13 16:44:53,2018-09-13 16:44:53,0.017s,PASSED
+"Statement - rows = Table.findElements(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table/tbody/tr/td[4]/button[3]""))",Chrome 68.0.3440.106,Locate all rows available in roles master page,2018-09-13 16:44:53,2018-09-13 16:44:53,0.016s,PASSED
+Statement - TotalRows = rows.size(),Chrome 68.0.3440.106,,2018-09-13 16:44:53,2018-09-13 16:44:53,0.000s,PASSED
+Statement - If (TotalRows >= 1),Chrome 68.0.3440.106,,2018-09-13 16:44:53,2018-09-13 16:44:53,0.263s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:53,2018-09-13 16:44:53,0.001s,PASSED
+,,,,,,
+Test Cases/Merchandising_My Account/_Roles/Verify- Roles Inactive,Chrome 68.0.3440.106,,2018-09-13 16:44:53,2018-09-13 16:44:57,3.481s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:53,2018-09-13 16:44:53,0.000s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:44:53,2018-09-13 16:44:53,0.000s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:53,2018-09-13 16:44:54,1.001s,PASSED
+click,Chrome 68.0.3440.106,Click on InActive tab selection,2018-09-13 16:44:54,2018-09-13 16:44:54,0.074s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:54,2018-09-13 16:44:56,2.002s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 68.0.3440.106,,2018-09-13 16:44:56,2018-09-13 16:44:56,0.000s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table""))",Chrome 68.0.3440.106,To locate table on Roles Master Page,2018-09-13 16:44:56,2018-09-13 16:44:56,0.029s,PASSED
+"Statement - rows = Table.findElements(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table/tbody/tr/td[4]/button[3]""))",Chrome 68.0.3440.106,Locate all rows available in roles master page,2018-09-13 16:44:56,2018-09-13 16:44:56,0.019s,PASSED
+Statement - TotalRows = rows.size(),Chrome 68.0.3440.106,,2018-09-13 16:44:56,2018-09-13 16:44:56,0.001s,PASSED
+Statement - If (TotalRows >= 1),Chrome 68.0.3440.106,,2018-09-13 16:44:56,2018-09-13 16:44:57,0.240s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:57,2018-09-13 16:44:57,0.001s,PASSED
+,,,,,,
+Test Cases/Merchandising_My Account/_Roles/Verify- Search By Role Name,Chrome 68.0.3440.106,,2018-09-13 16:44:57,2018-09-13 16:45:12,15.738s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-13 16:44:57,2018-09-13 16:44:57,0.001s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:44:57,2018-09-13 16:44:57,0.001s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:57,2018-09-13 16:44:59,2.002s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 68.0.3440.106,,2018-09-13 16:44:59,2018-09-13 16:44:59,0.001s,PASSED
+"Statement - log.logWarning(""-> executing for ALL filter Tab"")",Chrome 68.0.3440.106,Click on ALL tab selection,2018-09-13 16:44:59,2018-09-13 16:44:59,0.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:44:59,2018-09-13 16:44:59,0.133s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:44:59,2018-09-13 16:45:01,2.002s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table""))",Chrome 68.0.3440.106,To locate table on Roles Master Page,2018-09-13 16:45:01,2018-09-13 16:45:01,0.055s,PASSED
+"Statement - rows = Table.findElements(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table/tbody/tr""))",Chrome 68.0.3440.106,Locate all rows available in roles master page,2018-09-13 16:45:01,2018-09-13 16:45:01,0.035s,PASSED
+Statement - TotalRows = rows.size(),Chrome 68.0.3440.106,,2018-09-13 16:45:01,2018-09-13 16:45:01,0.001s,PASSED
+Statement - If (TotalRows >= 1),Chrome 68.0.3440.106,,2018-09-13 16:45:01,2018-09-13 16:45:03,2.255s,PASSED
+clearText,Chrome 68.0.3440.106,,2018-09-13 16:45:03,2018-09-13 16:45:03,0.027s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:45:03,2018-09-13 16:45:03,0.054s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:45:03,2018-09-13 16:45:05,2.002s,PASSED
+"Statement - log.logWarning(""-> Executing for ACTIVE filter Tab"")",Chrome 68.0.3440.106,Click on Active tab selection,2018-09-13 16:45:05,2018-09-13 16:45:05,0.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:45:05,2018-09-13 16:45:05,0.116s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:45:05,2018-09-13 16:45:07,2.002s,PASSED
+"Statement - Table2 = driver.findElement(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table""))",Chrome 68.0.3440.106,To locate table on Roles Master Page,2018-09-13 16:45:07,2018-09-13 16:45:07,0.028s,PASSED
+"Statement - rows2 = Table2.findElements(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table/tbody/tr""))",Chrome 68.0.3440.106,Locate all rows available in roles master page,2018-09-13 16:45:07,2018-09-13 16:45:08,0.024s,PASSED
+Statement - TotalRows2 = rows2.size(),Chrome 68.0.3440.106,,2018-09-13 16:45:08,2018-09-13 16:45:08,0.000s,PASSED
+Statement - If (TotalRows2 >= 1),Chrome 68.0.3440.106,,2018-09-13 16:45:08,2018-09-13 16:45:10,2.226s,PASSED
+clearText,Chrome 68.0.3440.106,,2018-09-13 16:45:10,2018-09-13 16:45:10,0.026s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:45:10,2018-09-13 16:45:10,0.063s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:45:10,2018-09-13 16:45:12,2.001s,PASSED
+"Statement - log.logWarning(""-> executing for IN-ACTIVE filter Tab"")",Chrome 68.0.3440.106,Click on IN-Active tab selection,2018-09-13 16:45:12,2018-09-13 16:45:12,0.000s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:45:12,2018-09-13 16:45:12,0.086s,PASSED
+"Statement - Table3 = driver.findElement(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table""))",Chrome 68.0.3440.106,To locate table on Roles Master Page,2018-09-13 16:45:12,2018-09-13 16:45:12,0.011s,PASSED
+"Statement - rows3 = Table3.findElements(org.openqa.selenium.By.xpath(""//*/div[@class=""col-sm-12""]//table/tbody/tr""))",Chrome 68.0.3440.106,Locate all rows available in roles master page,2018-09-13 16:45:12,2018-09-13 16:45:12,0.011s,PASSED
+Statement - TotalRows3 = rows3.size(),Chrome 68.0.3440.106,,2018-09-13 16:45:12,2018-09-13 16:45:12,0.000s,PASSED
+Statement - If (TotalRows3 >= 2),Chrome 68.0.3440.106,,2018-09-13 16:45:12,2018-09-13 16:45:12,0.425s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-13 16:45:12,2018-09-13 16:45:12,0.002s,PASSED
+,,,,,,
+Test Cases/1. Login_Logout/Logout- From Application,Chrome 68.0.3440.106,,2018-09-13 16:45:12,2018-09-13 16:45:17,4.299s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-13 16:45:12,2018-09-13 16:45:12,0.001s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:45:12,2018-09-13 16:45:12,0.000s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:45:12,2018-09-13 16:45:14,2.003s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:45:14,2018-09-13 16:45:15,0.184s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:45:15,2018-09-13 16:45:17,2.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Sign in to Continue"", false, OPTIONAL))",Chrome 68.0.3440.106,,2018-09-13 16:45:17,2018-09-13 16:45:17,0.066s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-13 16:45:17,2018-09-13 16:45:17,0.001s,PASSED

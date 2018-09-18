@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression- Landing Page,Chrome 68.0.3440.106,,2018-09-13 16:05:43,2018-09-13 16:06:18,35.288s,PASSED
+,,,,,,
+Test Cases/1. Login_Logout/Login- Standard Admin,Chrome 68.0.3440.106,,2018-09-13 16:05:43,2018-09-13 16:05:57,13.791s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:05:43,2018-09-13 16:05:43,0.003s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-09-13 16:05:43,2018-09-13 16:05:47,4.323s,PASSED
+"Statement - log.logWarning(""URL in Use: "" + baseURL)",Chrome 68.0.3440.106,,2018-09-13 16:05:47,2018-09-13 16:05:47,0.002s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-09-13 16:05:47,2018-09-13 16:05:47,0.151s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:05:47,2018-09-13 16:05:48,1.022s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-09-13 16:05:48,2018-09-13 16:05:49,0.294s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:05:49,2018-09-13 16:05:49,0.120s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:05:49,2018-09-13 16:05:51,2.003s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-09-13 16:05:51,2018-09-13 16:05:51,0.142s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:05:51,2018-09-13 16:05:51,0.098s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:05:51,2018-09-13 16:05:56,5.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(""Sign in to Continue"", false, OPTIONAL))",Chrome 68.0.3440.106,,2018-09-13 16:05:56,2018-09-13 16:05:57,0.467s,PASSED
+,,,,,,
+Test Cases/2. Landing Page/Verify- Available Screens,Chrome 68.0.3440.106,,2018-09-13 16:05:57,2018-09-13 16:06:01,4.490s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:05:57,2018-09-13 16:05:57,0.001s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:05:57,2018-09-13 16:06:01,4.004s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 68.0.3440.106,,2018-09-13 16:06:01,2018-09-13 16:06:01,0.012s,PASSED
+"Statement - Pages = driver.findElement(org.openqa.selenium.By.xpath(""//*/div/nav/ul""))",Chrome 68.0.3440.106,To locate screen section on merchandising page,2018-09-13 16:06:01,2018-09-13 16:06:01,0.084s,PASSED
+"Statement - screens = Pages.findElements(org.openqa.selenium.By.xpath(""//*/div/nav/ul/li/a/span""))",Chrome 68.0.3440.106,Locate all screens available in merchandising page,2018-09-13 16:06:01,2018-09-13 16:06:01,0.034s,PASSED
+Statement - TotalScreens = screens.size(),Chrome 68.0.3440.106,,2018-09-13 16:06:01,2018-09-13 16:06:01,0.000s,PASSED
+"Statement - log.logWarning(""Screen Options Available ="" + TotalScreens)",Chrome 68.0.3440.106,,2018-09-13 16:06:01,2018-09-13 16:06:01,0.000s,PASSED
+"Statement - For ([i = 0, i < screens.size(), (i++)])",Chrome 68.0.3440.106,,2018-09-13 16:06:01,2018-09-13 16:06:01,0.262s,PASSED
+,,,,,,
+Test Cases/2. Landing Page/Verify- Navigate My Accounts,Chrome 68.0.3440.106,,2018-09-13 16:06:01,2018-09-13 16:06:06,4.395s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:06:01,2018-09-13 16:06:01,0.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:06:01,2018-09-13 16:06:01,0.098s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:06:01,2018-09-13 16:06:03,2.003s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Landing Page/tab- Dash Options, [DashOption:My Account]), 5, OPTIONAL))",Chrome 68.0.3440.106,,2018-09-13 16:06:03,2018-09-13 16:06:06,2.217s,PASSED
+,,,,,,
+Test Cases/2. Landing Page/Verify- Navigate My Products,Chrome 68.0.3440.106,,2018-09-13 16:06:06,2018-09-13 16:06:10,4.865s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:06:06,2018-09-13 16:06:06,0.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:06:06,2018-09-13 16:06:06,0.114s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:06:06,2018-09-13 16:06:08,2.002s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Product Master"", false, OPTIONAL))",Chrome 68.0.3440.106,,2018-09-13 16:06:08,2018-09-13 16:06:10,2.643s,PASSED
+,,,,,,
+Test Cases/2. Landing Page/Verify- Navigate My Help,Chrome 68.0.3440.106,,2018-09-13 16:06:10,2018-09-13 16:06:17,6.746s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-13 16:06:11,2018-09-13 16:06:11,0.000s,PASSED
+scrollToElement,Chrome 68.0.3440.106,,2018-09-13 16:06:11,2018-09-13 16:06:11,0.049s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:06:11,2018-09-13 16:06:13,2.001s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-13 16:06:13,2018-09-13 16:06:13,0.118s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-13 16:06:13,2018-09-13 16:06:15,2.002s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""help page"", false, OPTIONAL))",Chrome 68.0.3440.106,,2018-09-13 16:06:15,2018-09-13 16:06:17,2.439s,PASSED

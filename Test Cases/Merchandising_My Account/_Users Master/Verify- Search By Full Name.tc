@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify- Search By Full Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ce77519-3f1e-4709-8c87-159b26846146</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description>Full Name wil be used as search input</description>
+      <id>0360009d-acf2-4a42-9f44-7ee6b5db5a0a</id>
+      <masked>false</masked>
+      <name>row_get_UserName</name>
+   </variable>
+</TestCaseEntity>

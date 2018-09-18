@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify- EDIT Page Clickable Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78ac86b2-051a-4f11-b490-502f261fe107</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>46b40793-3574-495c-80c6-6c4f1f577a16</id>
+      <masked>false</masked>
+      <name>Edit_User_ROW</name>
+   </variable>
+</TestCaseEntity>

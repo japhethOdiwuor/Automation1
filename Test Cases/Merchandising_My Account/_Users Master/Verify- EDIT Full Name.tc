@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify- EDIT Full Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36199e93-cf09-43e2-bbe3-0a16710e938f</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>bdc2964f-7c73-4a6d-a46b-1389bff112d2</id>
+      <masked>false</masked>
+      <name>Edit_User_ROW</name>
+   </variable>
+</TestCaseEntity>

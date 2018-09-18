@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify- EDIT Mobile Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3f0e4fa-2895-4a00-8cd3-6fd1a6e486c5</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>7cc9a86e-0524-4bd6-9d12-3b29806e272d</id>
+      <masked>false</masked>
+      <name>Edit_User_ROW</name>
+   </variable>
+</TestCaseEntity>

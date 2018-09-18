@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify- EDIT Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5f26986-dc5e-4f79-bef2-30fcd7789c60</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>9b0ffd52-8c17-4357-a6dc-0701eb7def9d</id>
+      <masked>false</masked>
+      <name>Edit_User_ROW</name>
+   </variable>
+   <variable>
+      <defaultValue>'test.dukamili@'</defaultValue>
+      <description></description>
+      <id>a0c3c927-36c5-4890-88e4-5f9d9847b911</id>
+      <masked>false</masked>
+      <name>editEmail_Input</name>
+   </variable>
+</TestCaseEntity>
